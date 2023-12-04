@@ -14,6 +14,8 @@ Make sure the accounts you are trying to connect to are set to **Public**. This 
 ## The Function
 There are a max of 3 possible ranks to be had by any user one for each role. In this loop, we try each XPath by iterating through a counter. The role image src, and we check for the matching role image src, then add the rank image src to a NumPy array called `ranks`. The array is then returned. You can use this output however you'd like.
 
+When searching for the username, be sure to use a `-` instead of a `#`. This is because the url has to do it this way, and you are modifying the url with an argument called `name` in the function. 
+
 
 ## The Example
  In the example provided, the array is put into a google sheet. Python connects to a google sheet using the Google Sheets API from Google Cloud, and displays the output on a table. This is just one usecase for this. Documentation on how to use Google Sheets API can be found [here](https://developers.google.com/sheets/api/guides/concepts).
