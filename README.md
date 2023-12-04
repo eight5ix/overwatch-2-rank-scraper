@@ -5,7 +5,7 @@ Scrapes overwatch.blizzard.com for user ranks, given a username as input.
 Make sure the accounts you are trying to connect to are set to **Public**. This can be changed in the Overwatch 2 Game Settings: `Launch Game > Menu > Options > Social > Privacy > Identity > Career Profile Visibility`
 
 ### Libraries
-- [requests](https://docs.python-requests.org/en/latest/index.html)
+- [Requests](https://docs.python-requests.org/en/latest/index.html)
 - [NumPy](https://numpy.org/doc/stable/)
 - [lxml](https://lxml.de/)
 #### Optional
